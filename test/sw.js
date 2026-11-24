@@ -1,5 +1,5 @@
 const SCOPE = new URL('./', self.location).pathname;
-const CACHE = 'delta-web-' + SCOPE + "test-1.2.0-3ce02b16eda2"; // привʼязано до папки: тестова версія і реліз на одному сайті не заважають одна одній
+const CACHE = 'delta-web-' + SCOPE + "test-1.3.0-5733d56f9dfc"; // привʼязано до папки: тестова версія і реліз на одному сайті не заважають одна одній
 const CORE = ["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./DELTA_%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%B9_%D1%84%D0%B0%D0%B9%D0%BB.xlsx"];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
