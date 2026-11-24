@@ -1,6 +1,6 @@
 {
- "name": "DELTA Конвертер позицій",
- "short_name": "DELTA Конвертер",
+ "name": "DELTA Coords Convertor",
+ "short_name": "DELTA Coords",
  "lang": "uk",
  "start_url": "./",
  "scope": "./",
