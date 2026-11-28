@@ -1,7 +1,7 @@
 const SCOPE = new URL('./', self.location).pathname;
 // привʼязано до папки: тестова версія (test/) і реліз (корінь) на одному сайті не чіпають кешів одна одної
 const PREFIX = 'delta-web|' + SCOPE + '|';
-const CACHE = PREFIX + "test-1.6.0-2d4bab808981";
+const CACHE = PREFIX + "test-1.6.0-618ab7018e8b";
 const OLD = ['delta-web-' + SCOPE + 'test-', 'delta-web-' + SCOPE + 'release-']; // кеші попереднього service worker (до ШВ.2)
 const CORE = ["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png"];
 // бібліотеки й тестовий файл: сторінка бере їх, лише коли потрібні, а памʼять докачує їх у фоні — після першого відкриття вони є і без інтернету
